@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "firstName": "James",
+        "lastName": "Omolo",
+        "phone": "0723-597542",
+        "company": "Afya Inc",
+        "project": "Lets Talk",
+        "notes": "This is a note"
+    },
+    {
+        "id": 2,
+        "firstName": "Achi",
+        "lastName": "Mwanaisha",
+        "phone": "0724-599542",
+        "company": "Afya Inc",
+        "project": "Lets Talk",
+        "notes": "This is a note"
+    },
+    {
+        "id": 3,
+        "firstName": "Mary",
+        "lastName": "Atieno",
+        "phone": "0728-590042",
+        "company": "Afya Inc",
+        "project": "Lets Talk",
+        "notes": "This is a note"
+    },
+    {
+        "id": 4,
+        "firstName": "Samantha",
+        "lastName": "Kipchoge",
+        "phone": "0721-977002",
+        "company": "Afya Inc",
+        "project": "Lets Talk",
+        "notes": "This is a note"
+    },
+    {
+        "id": 5,
+        "firstName": "Jacob",
+        "lastName": "Jagongo",
+        "phone": "0720-996642",
+        "company": "Afya Inc",
+        "project": "Lets Talk",
+        "notes": "This is a note"
+    },
+    {
+        "id": 6,
+        "firstName": "Amina",
+        "lastName": "Hassan",
+        "phone": "0735-997502",
+        "company": "Afya Inc",
+        "project": "Lets Talk",
+        "notes": "This is a note"
+    },
+]
