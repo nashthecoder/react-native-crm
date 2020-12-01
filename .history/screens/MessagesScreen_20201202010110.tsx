@@ -1,11 +1,8 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
-import { Container, Header, Content, List, ListItem, Left, Icon, Item, Input, Body, Right, Thumbnail, Text } from 'native-base';
+import { Container, Header, Content, List, ListItem, Left, Icon, Item, Input, Body, Right, Thumbnail, Text, Segment } from 'native-base';
 
 export default function MessagesScreen() {
-
-  const uri = 'https://avatars1.githubusercontent.com/u/15178823?s=460&u=37b7e0864e67a10698025f3abc5c12a287fa1f53&v=4';
-
   return (
     <Container>
       <Header searchBar rounded>
@@ -19,11 +16,11 @@ export default function MessagesScreen() {
           <List>
             <ListItem avatar>
               <Left>
-                <Thumbnail source={{uri: uri}} />
+                <Thumbnail source={'../images/avatar.png'}/>
               </Left>
               <Body>
                 <Text>Amina Mwajuma</Text>
-                <Text note>Re: Afya Proejct Q4 Report query on budget  . .</Text>
+                <Text note>Re: Q4 Report query on budget line . .</Text>
               </Body>
               <Right>
                 <Text note>3:43 pm</Text>

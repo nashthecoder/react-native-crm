@@ -4,7 +4,7 @@ import { Container, Header, Content, List, ListItem, Left, Icon, Item, Input, Bo
 
 export default function MessagesScreen() {
 
-  const uri = 'https://avatars1.githubusercontent.com/u/15178823?s=460&u=37b7e0864e67a10698025f3abc5c12a287fa1f53&v=4';
+  const uri = '../assets/images/avatar.png';
 
   return (
     <Container>

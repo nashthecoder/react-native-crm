@@ -3,8 +3,8 @@ import { StyleSheet } from 'react-native';
 import { Container, Header, Content, List, ListItem, Left, Icon, Item, Input, Body, Right, Thumbnail, Text } from 'native-base';
 
 export default function MessagesScreen() {
-
-  const uri = 'https://avatars1.githubusercontent.com/u/15178823?s=460&u=37b7e0864e67a10698025f3abc5c12a287fa1f53&v=4';
+  render() {
+  const uri = '../assets/images/avatar.png';
 
   return (
     <Container>
@@ -33,6 +33,7 @@ export default function MessagesScreen() {
         </Content>
       </Container>
   );
+  }
 }
 
 const styles = StyleSheet.create({
