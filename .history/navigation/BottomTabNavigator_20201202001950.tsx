@@ -6,8 +6,8 @@ import * as React from 'react';
 import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
 import ReportsScreen from '../screens/ReportsScreen';
-import MessagesScreen from '../screens/MessagesScreen';
-import { BottomTabParamList, ReportsParamList, MessagesParamList } from '../types';
+import TabTwoScreen from '../screens/MessagesScreen';
+import { BottomTabParamList, ReportsParamList, TabTwoParamList } from '../types';
 
 const BottomTab = createBottomTabNavigator<BottomTabParamList>();
 
@@ -27,7 +27,7 @@ export default function BottomTabNavigator() {
       />
       <BottomTab.Screen
         name="Messages"
-        component={MessagesNavigator}
+        component={TabTwoNavigator}
         options={{
           tabBarIcon: ({ color }) => <TabBarIcon name="md-mail" color={color} />,
         }}
@@ -58,16 +58,16 @@ function ReportsNavigator() {
   );
 }
 
-const MessagesStack = createStackNavigator<MessagesParamList>();
+const TabTwoStack = createStackNavigator<TabTwoParamList>();
 
-function MessagesNavigator() {
+function TabTwoNavigator() {
   return (
-    <MessagesStack.Navigator>
-      <MessagesStack.Screen
-        name="MessagesScreen"
-        component={MessagesScreen}
-        options={{ headerTitle: 'Messages' }}
+    <TabTwoStack.Navigator>
+      <TabTwoStack.Screen
+        name="TabTwoScreen"
+        component={TabTwoScreen}
+        options={{ headerTitle: 'Tab Two Title' }}
       />
-    </MessagesStack.Navigator>
+    </TabTwoStack.Navigator>
   );
 }

@@ -66,7 +66,7 @@ function MessagesNavigator() {
       <MessagesStack.Screen
         name="MessagesScreen"
         component={MessagesScreen}
-        options={{ headerTitle: 'Messages' }}
+        options={{ headerTitle: 'Messages Title' }}
       />
     </MessagesStack.Navigator>
   );

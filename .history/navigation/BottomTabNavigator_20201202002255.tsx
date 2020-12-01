@@ -6,7 +6,7 @@ import * as React from 'react';
 import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
 import ReportsScreen from '../screens/ReportsScreen';
-import MessagesScreen from '../screens/MessagesScreen';
+import TabTwoScreen from '../screens/MessagesScreen';
 import { BottomTabParamList, ReportsParamList, MessagesParamList } from '../types';
 
 const BottomTab = createBottomTabNavigator<BottomTabParamList>();
@@ -66,7 +66,7 @@ function MessagesNavigator() {
       <MessagesStack.Screen
         name="MessagesScreen"
         component={MessagesScreen}
-        options={{ headerTitle: 'Messages' }}
+        options={{ headerTitle: 'Messages Title' }}
       />
     </MessagesStack.Navigator>
   );
