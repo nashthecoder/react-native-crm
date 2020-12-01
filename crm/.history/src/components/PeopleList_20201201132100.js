@@ -6,7 +6,7 @@ import PeopleItem from './PeopleItem';
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        width: 330,
+        width: 350,
         flexWrap: 'wrap',
         paddingTop: 20,
         paddingLeft: 20,
@@ -14,11 +14,6 @@ const styles = StyleSheet.create({
 });
 
 class PeopleList extends Component {
-    static navigationOptions = {
-        tabBarIcon: ({tintColor}) => (
-            <Icon name={'user'} size={50} color={tintColor} />
-        )
-    }
     render() {
         return (
             <View style={styles.container}>

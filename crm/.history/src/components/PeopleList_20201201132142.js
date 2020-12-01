@@ -9,16 +9,11 @@ const styles = StyleSheet.create({
         width: 330,
         flexWrap: 'wrap',
         paddingTop: 20,
-        paddingLeft: 20,
+        paddingLeft: 5,
     }
 });
 
 class PeopleList extends Component {
-    static navigationOptions = {
-        tabBarIcon: ({tintColor}) => (
-            <Icon name={'user'} size={50} color={tintColor} />
-        )
-    }
     render() {
         return (
             <View style={styles.container}>

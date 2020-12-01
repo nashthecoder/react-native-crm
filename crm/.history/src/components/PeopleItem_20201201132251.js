@@ -10,6 +10,7 @@ const theme = getTheme();
 const styles = StyleSheet.create({
     card: {
         marginTop: 20,
+        alignItem: 'center'
     },
     title: {
         top: 20,
