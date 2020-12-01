@@ -1,17 +1,14 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
-import { Container, Header, Content, List, ListItem, Left, Icon, Item, Input, Body, Right, Thumbnail, Text, Segment } from 'native-base';
+import { Container, Header, Content, List, ListItem, Left, Body, Right, Thumbnail, Text, Segment } from 'native-base';
 
 export default function MessagesScreen() {
   return (
     <Container>
-      <Header searchBar rounded>
-        <Item>
-          <Icon name="ios-search" />
-          <Input placeholder="Search" />
-          <Icon name="ios-people" />
-        </Item>
-      </Header>
+        <Header />
+        <Segment>
+          <Text>TEst</Text>
+        </Segment>
         <Content>
           <List>
             <ListItem avatar>

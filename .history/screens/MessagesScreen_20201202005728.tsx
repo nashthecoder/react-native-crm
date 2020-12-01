@@ -5,13 +5,7 @@ import { Container, Header, Content, List, ListItem, Left, Icon, Item, Input, Bo
 export default function MessagesScreen() {
   return (
     <Container>
-      <Header searchBar rounded>
-        <Item>
-          <Icon name="ios-search" />
-          <Input placeholder="Search" />
-          <Icon name="ios-people" />
-        </Item>
-      </Header>
+      <Header searchBar></Header>
         <Content>
           <List>
             <ListItem avatar>
