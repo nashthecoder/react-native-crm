@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
 });
 
 class PeopleList extends Component {
-    render() {
+    render(); {
         return (
             <View style={styles.container}>
             <FlatList

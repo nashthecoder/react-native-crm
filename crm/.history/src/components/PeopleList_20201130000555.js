@@ -23,7 +23,7 @@ class PeopleList extends Component {
             />
             </View>
         )
-    }
+    };
 }
 
 const mapStateToProps = state => {
