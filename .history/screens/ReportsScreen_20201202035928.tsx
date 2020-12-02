@@ -7,7 +7,7 @@ export default function ReportsScreen() {
   return (
     <Container>
       <Header>
-        <Text style={styles.bold}>Instructions: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        <Text>Instructions: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
       </Header>
       <View style={{
@@ -16,10 +16,7 @@ export default function ReportsScreen() {
         justifyContent: "space-between",
         marginTop: 5,
         alignItems: "center" ,
-        backgroundColor: "#FFFFFF",
-        space: {
-          height: 20,
-        },
+        backgroundColor: "#FFFFFF"
       }}>
           <Button full info>
             <Text>Narrative</Text>

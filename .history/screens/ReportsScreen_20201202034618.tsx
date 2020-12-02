@@ -6,30 +6,20 @@ import { View } from '../components/Themed';
 export default function ReportsScreen() {
   return (
     <Container>
-      <Header>
-        <Text style={styles.bold}>Instructions: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
-      </Header>
-      <View style={{
-        flexDirection: "column",
+      <View style= {{
+        flexDirection: "row",
         padding: 10,
         justifyContent: "space-between",
-        marginTop: 5,
         alignItems: "center" ,
-        backgroundColor: "#FFFFFF",
-        space: {
-          height: 20,
-        },
+        backgroundColor: "#A9DAD6"
       }}>
-          <Button full info>
+          <Button first>
             <Text>Narrative</Text>
           </Button>
-
-          <Button full info>
+          <Button>
             <Text>Financial</Text>
           </Button>
-
-          <Button full info>
+          <Button last active>
             <Text>Uploads</Text>
           </Button>
       </View>

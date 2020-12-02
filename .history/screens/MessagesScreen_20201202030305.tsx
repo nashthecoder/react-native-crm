@@ -23,7 +23,7 @@ export default function MessagesScreen() {
               </Left>
               <Body>
                 <Text>Amina Mwajuma</Text>
-                <Text note numberOfLines={1}>Re: Afya Project Q4 Report query on budget  . .</Text>
+                <Text note numberOfLines={1}>Re: Afya Proejct Q4 Report query on budget  . .</Text>
               </Body>
               <Right>
                 <Text note>3:43 pm</Text>
