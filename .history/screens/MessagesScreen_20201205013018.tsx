@@ -8,7 +8,8 @@ export default function MessagesScreen() {
 
   return (
     <Container>
-      <Header searchBar >
+      <Header searchBar 
+      width: '10' >
         <Item>
           <Icon name="ios-search" />
           <Input placeholder="Search" />
