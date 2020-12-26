@@ -34,7 +34,7 @@ const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {
       <Header>
         <Text style={styles.bold}>Instructions: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
-      </Header>
+        </Header>
         <Content padder>
           <Card>
             <CardItem header bordered>
@@ -49,6 +49,7 @@ const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 <Button title="Narrative" onPress={() => navigation.navigate(AppScreens.Narrative)} />
                 </Text>
               </Body>
@@ -62,6 +63,7 @@ const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 <Button title="Financial" onPress={() => navigation.navigate(AppScreens.Financial)} />
                 </Text>
               </Body>
@@ -75,6 +77,7 @@ const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 <Button title="Attachments" onPress={() => navigation.navigate(AppScreens.Uploads)} />
                 </Text>
               </Body>

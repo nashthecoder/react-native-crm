@@ -34,7 +34,7 @@ const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {
       <Header>
         <Text style={styles.bold}>Instructions: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
-      </Header>
+        </Header>
         <Content padder>
           <Card>
             <CardItem header bordered>
@@ -42,40 +42,43 @@ const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {
             </CardItem>
             <CardItem bordered button>
               <Body>
-                <Title>Narrative</Title>
+                <Button title="Narrative" onPress={() => navigation.navigate(AppScreens.Login)} />
                 <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <Button title="Narrative" onPress={() => navigation.navigate(AppScreens.Narrative)} />
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </Text>
               </Body>
             </CardItem>
             <CardItem bordered>
               <Body>
-                <Title>Financial</Title>
+                <Button title="Financials" onPress={() => navigation.navigate(AppScreens.Login)} />
                 <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <Button title="Financial" onPress={() => navigation.navigate(AppScreens.Financial)} />
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </Text>
               </Body>
             </CardItem>
             <CardItem bordered>
               <Body>
-                <Title>Attachments</Title> 
+                <Button title="Attachments" onPress={() => navigation.navigate(AppScreens.Login)} />
                 <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <Button title="Attachments" onPress={() => navigation.navigate(AppScreens.Uploads)} />
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </Text>
               </Body>
             </CardItem>

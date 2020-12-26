@@ -32,8 +32,7 @@ const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {
     <SafeAreaView style={styles.container}>
       <Container>
       <Header>
-        <Text style={styles.bold}>Instructions: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
+        
       </Header>
         <Content padder>
           <Card>

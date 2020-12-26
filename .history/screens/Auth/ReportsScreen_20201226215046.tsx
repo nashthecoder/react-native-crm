@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Container, Header, Body, Card, CardItem, Icon, Content, Title,} from 'native-base';
+import { Container, Header, Body, Card, CardItem, Icon, Content,} from 'native-base';
 import { SafeAreaView, StyleSheet, Text, TextInput, Button, View } from 'react-native';
 import { AppScreens, AuthStackParamList } from '../../navigation/AuthFlowNavigator';
 import { StackNavigationProp } from '@react-navigation/stack';
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 20,
-    fontWeight: "800",
+    fontWeight: 'bold'
   },
   separator: {
     marginVertical: 30,
@@ -34,50 +34,38 @@ const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {
       <Header>
         <Text style={styles.bold}>Instructions: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
-      </Header>
+        </Header>
         <Content padder>
           <Card>
             <CardItem header bordered>
-              <Title>Report Overview</Title>
+              <Text>Report Overview</Text>
             </CardItem>
             <CardItem bordered button>
               <Body>
-                <Title>Narrative</Title>
+                <Text>Narrative</Text>
                 <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <Button title="Narrative" onPress={() => navigation.navigate(AppScreens.Narrative)} />
                 </Text>
               </Body>
             </CardItem>
             <CardItem bordered>
               <Body>
-                <Title>Financial</Title>
+                <Text>Financial</Text>
                 <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <Button title="Financial" onPress={() => navigation.navigate(AppScreens.Financial)} />
                 </Text>
               </Body>
             </CardItem>
             <CardItem bordered>
               <Body>
-                <Title>Attachments</Title> 
+                <Text>Attachments</Text>
                 <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <Button title="Attachments" onPress={() => navigation.navigate(AppScreens.Uploads)} />
                 </Text>
               </Body>
+            </CardItem>
+            <CardItem footer bordered>
+              <Text>Check Updates</Text>
             </CardItem>
           </Card>
         </Content>
