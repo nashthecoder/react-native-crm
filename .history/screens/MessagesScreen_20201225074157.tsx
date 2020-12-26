@@ -58,11 +58,11 @@ export default function MessagesScreen() {
               <Thumbnail square source={{uri: uri}} />
             </Left>
             <Body>
-              <Text>Hassan Juma</Text>
+              <Text>Hassan Jume</Text>
               <Text note numberOfLines={1}>Re: Afya Project Q4 Report notes  . .</Text>
             </Body>
             <Right>
-              <Text note>1:04 pm</Text>
+              <Text note>3:43 pm</Text>
             </Right>
           </ListItem>
           <ListItem thumbnail>
@@ -74,7 +74,7 @@ export default function MessagesScreen() {
               <Text note numberOfLines={1}>Re: Afya Project Q4 Report update . .</Text>
             </Body>
             <Right>
-              <Text note>5:15 pm</Text>
+              <Text note>3:43 pm</Text>
             </Right>
           </ListItem>
         </List>

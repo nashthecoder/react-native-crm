@@ -21,17 +21,17 @@ export default function ReportsScreen() {
           height: 20,
         },
       }}>
-          <Button full info>
-            <Text>Narrative</Text>
-          </Button>
+        <Button full info>
+          <Text>Narrative</Text>
+        </Button>
 
-          <Button full info>
-            <Text>Financial</Text>
-          </Button>
+        <Button full info>
+          <Text>Financial</Text>
+        </Button>
 
-          <Button full info>
-            <Text>Uploads</Text>
-          </Button>
+        <Button full info>
+          <Text>Uploads</Text>
+        </Button>
       </View>
     </Container>
   );

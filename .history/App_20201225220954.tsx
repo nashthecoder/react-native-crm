@@ -13,7 +13,7 @@ export default function App() {
     return null
   } else {
     return (
-      <NavigationContainer colorScheme={colorScheme}>
+      <NavigationContainer>
         <AuthFlowNavigator />
         <StatusBar />
       </NavigationContainer>
