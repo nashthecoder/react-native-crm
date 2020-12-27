@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-between',
         margin: 10,
-        backgroundColor: "white"
+        color: "white"
     },
     welcome: {
         fontSize: 30

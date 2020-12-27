@@ -14,8 +14,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'space-between',
-        margin: 10,
-        backgroundColor: "white"
+        margin: 10
     },
     welcome: {
         fontSize: 30

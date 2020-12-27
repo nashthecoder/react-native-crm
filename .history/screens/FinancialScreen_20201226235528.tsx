@@ -25,9 +25,7 @@ const styles = StyleSheet.create({
 });
 
 
-const FinancialScreen: React.FunctionComponent<FinancialScreenProps> = (props) => {
-  const { navigation } = props;
-
+export default function FinancialScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Financial</Text>
@@ -46,16 +44,6 @@ const FinancialScreen: React.FunctionComponent<FinancialScreenProps> = (props) =
       </Container>
       {/* <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <EditScreenInfo path="/screens/TabTwoScreen.js" /> */}
-    <View style={styles.btnNextContainer}>
-      <Button title="Narrative" onPress={() => navigation.navigate(AppScreens.Login)} />
-    </View>
-    <View style={styles.btnNextContainer}>
-      <Button title="Financial" onPress={() => navigation.navigate(AppScreens.Login)} />
-    </View>
-    <View style={styles.btnNextContainer}>
-      <Button title="Uploads" onPress={() => navigation.navigate(AppScreens.Login)} />
-    </View>
     </View>
   );
-
-export default FinancialScreen; 
+}

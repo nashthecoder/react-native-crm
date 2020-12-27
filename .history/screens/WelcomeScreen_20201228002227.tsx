@@ -14,8 +14,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'space-between',
-        margin: 10,
-        backgroundColor: "white"
+        margin: 10
     },
     welcome: {
         fontSize: 30
@@ -25,12 +24,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         flex: 1,
         width: '100%'
-    },
-    welcomeLogo: {
-        flex: 1,
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'center',
     }
 });
 const WelcomeScreen: React.FunctionComponent<WelcomeScreenProps> = (props) => {

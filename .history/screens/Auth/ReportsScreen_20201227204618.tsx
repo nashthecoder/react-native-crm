@@ -33,6 +33,9 @@ const styles = StyleSheet.create({
   paragraph: {
     margin: 5,
   },
+  btnContainer: {
+    align-items: flex-end,
+  }
 });
 
 const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {

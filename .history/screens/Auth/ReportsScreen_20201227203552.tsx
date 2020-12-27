@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
   },
   paragraph: {
     margin: 5,
-  },
+  }
 });
 
 const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {

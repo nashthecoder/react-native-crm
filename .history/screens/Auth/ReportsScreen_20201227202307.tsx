@@ -27,12 +27,11 @@ const styles = StyleSheet.create({
   bold: {
     color: "gray",
     padding: 5,
-    margin: 3,
     fontWeight: "600",
   },
   paragraph: {
     margin: 5,
-  },
+  }
 });
 
 const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {
@@ -42,7 +41,7 @@ const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {
       <Container>
       <Header>
         <Text style={styles.bold}>Instructions: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt.</Text>
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
       </Header>
         <Content padder>
           <Card>
