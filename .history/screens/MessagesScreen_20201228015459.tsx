@@ -9,20 +9,20 @@ interface MessagesScreenProps {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: '80%',
-  },
+  // container: {
+  //   flex: 1,
+  //   alignItems: 'center',
+  //   justifyContent: 'center',
+  // },
+  // title: {
+  //   fontSize: 20,
+  //   fontWeight: 'bold',
+  // },
+  // separator: {
+  //   marginVertical: 30,
+  //   height: 1,
+  //   width: '80%',
+  // },
 });
 
 const uri = 'https://avatars1.githubusercontent.com/u/15178823?s=460&u=37b7e0864e67a10698025f3abc5c12a287fa1f53&v=4';
@@ -106,7 +106,7 @@ return (
     </Content>
   </Container>
     <View style={styles.btnContainer}>
-      <Button title="Reports" onPress={() => navigation.navigate(AppScreens.Reports)} />
+      <Button title="Reports" onPress={() => navigation.navigate(AppScreens.)} />
     </View>
     <View style={styles.btnContainer}>
       <Button title="Profile" onPress={() => navigation.navigate(AppScreens.Profile)} />

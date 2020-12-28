@@ -32,7 +32,7 @@ const MessagesScreen: React.FunctionComponent<MessagesScreenProps> = (props) => 
 
 return (
 <SafeAreaView style={styles.container}>
-  <Container>
+
     <Header searchBar >
       <Item>
         <Icon name="ios-search" />
@@ -104,7 +104,7 @@ return (
           </ListItem>
         </List>
     </Content>
-  </Container>
+
     <View style={styles.btnContainer}>
       <Button title="Reports" onPress={() => navigation.navigate(AppScreens.Reports)} />
     </View>

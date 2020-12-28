@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-between',
         margin: 10,
-        backgroundColor: "white",
+        backgroundColor: "white"
     },
     welcome: {
         fontSize: 30
@@ -24,7 +24,13 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         flex: 1,
-        width: '100%', 
+        width: '100%'
+    },
+    welcomeLogo: {
+        flex: 1,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
     },
     appName: {
         flex: 1,
@@ -40,6 +46,8 @@ return (
         <SafeAreaView style={styles.container}>
             <View style={styles.welcomeContainer}>
                 <Text style={styles.welcome}>Welcome</Text>
+            </View>
+            <View style={styles.welcomeLogo}>
                 <Image source = {require('../assets/images/afya_logo.png')} />   
                 <Text style={styles.welcome}>CRM</Text>
             </View>

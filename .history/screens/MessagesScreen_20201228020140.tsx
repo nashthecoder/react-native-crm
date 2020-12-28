@@ -31,7 +31,7 @@ const MessagesScreen: React.FunctionComponent<MessagesScreenProps> = (props) => 
   const { navigation } = props;
 
 return (
-<SafeAreaView style={styles.container}>
+<SafeAreaView>
   <Container>
     <Header searchBar >
       <Item>

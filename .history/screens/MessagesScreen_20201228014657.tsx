@@ -9,11 +9,11 @@ interface MessagesScreenProps {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+  // container: {
+  //   flex: 1,
+  //   alignItems: 'center',
+  //   justifyContent: 'center',
+  // },
   title: {
     fontSize: 20,
     fontWeight: 'bold',
@@ -106,7 +106,7 @@ return (
     </Content>
   </Container>
     <View style={styles.btnContainer}>
-      <Button title="Reports" onPress={() => navigation.navigate(AppScreens.Reports)} />
+      <Button title="Reports" onPress={() => navigation.navigate(AppScreens.Messages)} />
     </View>
     <View style={styles.btnContainer}>
       <Button title="Profile" onPress={() => navigation.navigate(AppScreens.Profile)} />

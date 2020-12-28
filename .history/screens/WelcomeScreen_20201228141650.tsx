@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         margin: 10,
         backgroundColor: "white",
+        flexDirection: 'row',
     },
     welcome: {
         fontSize: 30

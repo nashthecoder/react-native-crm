@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-between',
         margin: 10,
-        backgroundColor: "white",
+        backgroundColor: "white"
     },
     welcome: {
         fontSize: 30
@@ -25,6 +25,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         flex: 1,
         width: '100%', 
+        borderBottomColor: 'blue',
     },
     appName: {
         flex: 1,

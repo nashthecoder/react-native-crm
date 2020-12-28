@@ -9,10 +9,12 @@ interface MessagesScreenProps {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+  container: 
+  flex: 1,
+  width: 353,
+  flexWrap: 'wrap',
+  paddingTop: 20,
+  paddingLeft: 20,
   },
   title: {
     fontSize: 20,

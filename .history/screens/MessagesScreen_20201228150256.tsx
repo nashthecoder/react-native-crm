@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    flexWrap: 'wrap',
   },
   title: {
     fontSize: 20,
