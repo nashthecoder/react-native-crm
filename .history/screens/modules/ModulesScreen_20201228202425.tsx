@@ -17,6 +17,9 @@ const styles = StyleSheet.create({
         margin: 10,
         backgroundColor: "white",
     },
+    welcome: {
+        fontSize: 30
+    },
     welcomeContainer: {
         alignItems: 'center',
         justifyContent: 'center',
@@ -36,12 +39,16 @@ const WelcomeScreen: React.FunctionComponent<WelcomeScreenProps> = (props) => {
 return (
         <SafeAreaView style={styles.container}>
             <View style={styles.welcomeContainer}>
+                <Text style={styles.welcome}>Welcome</Text>
                 <Image source = {require('../assets/images/afya_logo.png')} />   
                 <Text style={styles.welcome}>CRM</Text>
             </View>
-            <View style={styles.btnNextContainer}>
-                <Button title="Login" onPress={() => navigation.navigate(AppScreens.Login)} />
-            </View>
+      <View style={styles.btnContainer}>
+        <Button title="Messages" onPress={() => navigation.navigate(AppScreens.Messages)} />
+      </View>
+      <View style={styles.btnContainer}>
+        <Button title="Profile" onPress={() => navigation.navigate(AppScreens.Profile)} />
+      </View>
         </SafeAreaView>
     );
 };

@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
     txtUsername: {
         fontSize: 25,
         color: 'grey',
+        height: 100,
     }
 });
 const SignupScreen: React.FunctionComponent<SignupScreenProps> = (props) => {

@@ -7,47 +7,34 @@ interface WelcomeScreenProps {
     navigation: WelcomeScreenNavigationProps;
 }
 const styles = StyleSheet.create({
+    btnNextContainer: {
+        alignSelf: 'center'
+    },
     container: {
-      flex: 1,
-      backgroundColor: colors.white,
-      paddingTop: 10,
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        margin: 10,
+        backgroundColor: "white",
     },
-    row: {
-      flexDirection: 'row',
-      paddingHorizontal: 10,
-      marginTop: 10,
+    welcome: {
+        fontSize: 30
     },
-    item: {
-      flex: 1,
-      height: 120,
-      paddingVertical: 20,
-      borderColor: colors.primaryLight,
-      borderWidth: 1,
-      borderRadius: 5,
-      alignItems: 'center',
-      justifyContent: 'space-around',
-      marginHorizontal: 5,
+    welcomeContainer: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        flex: 1,
+        width: '100%', 
     },
-    blogItem: {
-      width: '31%',
-      height: 120,
-      paddingVertical: 20,
-      borderColor: colors.primaryLight,
-      borderWidth: 1,
-      borderRadius: 5,
-      alignItems: 'center',
-      justifyContent: 'space-around',
-      marginHorizontal: 5,
-    },
-    itemText: {
-      color: colors.primary,
-      fontFamily: fonts.primary,
-    },
-    itemImage: {
-      height: 35,
-    },
-  });
-  
+    appName: {
+        flex: 1,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontWeight: '800',
+    }
+});
+
 const reportsIcon = require('../../assets/images/icons/reports');
 const messagesIcon = require('../../assets/images/icons/messages');
 const calenderIcon = require('../../assets/images/icons/calendar');
@@ -73,4 +60,4 @@ return (
         </SafeAreaView>
     );
 };
-export default ModulesScreen;
+export default WelcomeScreen;

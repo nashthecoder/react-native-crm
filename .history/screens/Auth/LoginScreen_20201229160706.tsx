@@ -25,7 +25,6 @@ const styles = StyleSheet.create({
         padding: 2,
         width: '100%',
         height: 50,
-        paddingLeft: 20,
     },
     textInputContainer: {
         width: '100%',

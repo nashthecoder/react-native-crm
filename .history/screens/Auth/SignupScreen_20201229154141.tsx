@@ -26,11 +26,12 @@ const styles = StyleSheet.create({
     txtSignupScreenContainer: {
         flex: 1,
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'center'
     },
     txtUsername: {
         fontSize: 25,
         color: 'grey',
+        height: 15
     }
 });
 const SignupScreen: React.FunctionComponent<SignupScreenProps> = (props) => {

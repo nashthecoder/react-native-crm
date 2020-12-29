@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Container, Header, Body, Card, CardItem, Icon, Content, Title, Row,} from 'native-base';
+import { Container, Header, Body, Card, CardItem, Icon, Content, Title,} from 'native-base';
 import { SafeAreaView, StyleSheet, Text, TextInput, Button, View } from 'react-native';
 import { AppScreens, AuthStackParamList } from '../../navigation/AuthFlowNavigator';
 import { StackNavigationProp } from '@react-navigation/stack';
@@ -12,12 +12,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
   title: {
     fontSize: 20,
     fontWeight: "800",
-    backgroundColor: "#b8caff",
   },
   separator: {
     marginVertical: 30,
@@ -33,9 +32,6 @@ const styles = StyleSheet.create({
   paragraph: {
     margin: 5,
   },
-  bottomNav: {
-    flexDirection: 'column',
-  }
 });
 
 const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {
@@ -49,7 +45,7 @@ const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {
       </Header>
         <Content padder>
           <Card>
-            <CardItem style={styles.title} header bordered>
+            <CardItem header bordered>
               <Title>Report Overview</Title>
             </CardItem>
             <CardItem bordered button>

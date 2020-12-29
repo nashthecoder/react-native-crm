@@ -17,6 +17,9 @@ const styles = StyleSheet.create({
         margin: 10,
         backgroundColor: "white",
     },
+    welcome: {
+        fontSize: 30
+    },
     welcomeContainer: {
         alignItems: 'center',
         justifyContent: 'center',
@@ -40,7 +43,7 @@ return (
                 <Text style={styles.welcome}>CRM</Text>
             </View>
             <View style={styles.btnNextContainer}>
-                <Button title="Login" onPress={() => navigation.navigate(AppScreens.Login)} />
+                <Button title="Welcome" onPress={() => navigation.navigate(AppScreens.Login)} />
             </View>
         </SafeAreaView>
     );

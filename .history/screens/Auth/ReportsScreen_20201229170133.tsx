@@ -12,12 +12,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
   title: {
     fontSize: 20,
     fontWeight: "800",
-    backgroundColor: "#b8caff",
+    backgroundColor: "blue",
   },
   separator: {
     marginVertical: 30,
@@ -49,8 +49,8 @@ const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {
       </Header>
         <Content padder>
           <Card>
-            <CardItem style={styles.title} header bordered>
-              <Title>Report Overview</Title>
+            <CardItem header bordered>
+              <Title style={styles.title}>Report Overview</Title>
             </CardItem>
             <CardItem bordered button>
               <Body>
