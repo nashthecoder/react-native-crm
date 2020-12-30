@@ -3,7 +3,6 @@ import { SafeAreaView, StyleSheet, Text, View, Button, Image, TouchableOpacity }
 import { Container, Header } from 'native-base';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { AuthStackParamList, AppScreens } from '../../navigation/AuthFlowNavigator';
-// import { AntDesign } from '@expo/vector-icons'; 
 type ModulesScreenNavigationProps = StackNavigationProp<AuthStackParamList, AppScreens.Modules>;
 interface ModulesScreenProps {
     navigation: ModulesScreenNavigationProps;
@@ -18,7 +17,6 @@ const styles = StyleSheet.create({
       flexDirection: 'column',
       paddingHorizontal: 15,
       marginTop: 10,
-      height: 500,
     },
     item: {
       flex: 1,
@@ -28,10 +26,9 @@ const styles = StyleSheet.create({
       borderWidth: 1,
       borderRadius: 5,
       alignItems: 'center',
-      justifyContent: 'space-between',
+      justifyContent: 'space-around',
       marginHorizontal: 5,
       backgroundColor: "#b8caff",
-      margin: 5,
     },
     blogItem: {
       width: '31%',
@@ -70,7 +67,8 @@ return (
         <SafeAreaView style={styles.container}>
           <Container>
             <Header>
-              <Text style={styles.bold}>Your CRM Modules</Text>
+              <Text style={styles.bold}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt.</Text>
             </Header>
             <View style={styles.buttons}>
               <TouchableOpacity
@@ -128,17 +126,17 @@ return (
                 />
                 <Text style={styles.itemText}>Profile</Text>
               </TouchableOpacity>
-              {/* <TouchableOpacity
-                onPress={() => props.navigation.navigate('Add Module')}
+              <TouchableOpacity
+                onPress={() => props.navigation.navigate(#)}
                 style={styles.item}
               >
                 <Image
                   resizeMode="contain"
-                  source={AntDesign}
+                  source={addIcon}
                   style={styles.itemImage}
                 />
                 <Text style={styles.itemText}>Add Module</Text>
-              </TouchableOpacity> */}
+              </TouchableOpacity>
             </View>
           </Container>
           <View style={styles.btnNextContainer}>

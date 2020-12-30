@@ -70,7 +70,7 @@ return (
         <SafeAreaView style={styles.container}>
           <Container>
             <Header>
-              <Text style={styles.bold}>Your CRM Modules</Text>
+              <Text style={styles.bold}>Afya Inc CRM Modules</Text>
             </Header>
             <View style={styles.buttons}>
               <TouchableOpacity

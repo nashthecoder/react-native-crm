@@ -28,10 +28,9 @@ const styles = StyleSheet.create({
       borderWidth: 1,
       borderRadius: 5,
       alignItems: 'center',
-      justifyContent: 'space-between',
+      justifyContent: 'space-around',
       marginHorizontal: 5,
       backgroundColor: "#b8caff",
-      margin: 5,
     },
     blogItem: {
       width: '31%',
@@ -70,7 +69,8 @@ return (
         <SafeAreaView style={styles.container}>
           <Container>
             <Header>
-              <Text style={styles.bold}>Your CRM Modules</Text>
+              <Text style={styles.bold}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt.</Text>
             </Header>
             <View style={styles.buttons}>
               <TouchableOpacity
