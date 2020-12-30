@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     itemText: {
       color: "#254176",
       margin: -5,
-      fontWeight: "600",
+      fontWeight: "700",
     },
     itemImage: {
       height: 35,

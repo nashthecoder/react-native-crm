@@ -31,18 +31,17 @@ const styles = StyleSheet.create({
       borderRadius: 5,
       alignItems: 'center',
       justifyContent: 'space-between',
-      marginHorizontal: 15,
+      marginHorizontal: 5,
       backgroundColor: "#b8caff",
-      margin: 15,
+      margin: 1,
     },
     itemText: {
       color: "#254176",
-      margin: -5,
-      fontWeight: "600",
+      margin: 10,
     },
     itemImage: {
       height: 35,
-      margin: 10,
+      margin: 20,
     },
     bold: {
       paddingTop: 15,

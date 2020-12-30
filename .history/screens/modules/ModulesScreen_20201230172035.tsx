@@ -17,10 +17,9 @@ const styles = StyleSheet.create({
     },
     buttons: {
       flexDirection: 'row',
-      marginBottom: 30,
-      paddingHorizontal: 40,
-      marginTop: 30,
-      height: "75%",
+      paddingHorizontal: 20,
+      marginTop: 15,
+      height: 500,
     },
     item: {
       flex: 1,
@@ -31,18 +30,15 @@ const styles = StyleSheet.create({
       borderRadius: 5,
       alignItems: 'center',
       justifyContent: 'space-between',
-      marginHorizontal: 15,
+      marginHorizontal: 5,
       backgroundColor: "#b8caff",
-      margin: 15,
+      margin: 1,
     },
     itemText: {
       color: "#254176",
-      margin: -5,
-      fontWeight: "600",
     },
     itemImage: {
       height: 35,
-      margin: 10,
     },
     bold: {
       paddingTop: 15,

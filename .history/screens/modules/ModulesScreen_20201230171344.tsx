@@ -17,10 +17,9 @@ const styles = StyleSheet.create({
     },
     buttons: {
       flexDirection: 'row',
-      marginBottom: 30,
-      paddingHorizontal: 40,
-      marginTop: 30,
-      height: "75%",
+      paddingHorizontal: 20,
+      marginTop: 10,
+      height: 500,
     },
     item: {
       flex: 1,
@@ -31,18 +30,15 @@ const styles = StyleSheet.create({
       borderRadius: 5,
       alignItems: 'center',
       justifyContent: 'space-between',
-      marginHorizontal: 15,
+      marginHorizontal: 5,
       backgroundColor: "#b8caff",
-      margin: 15,
+      margin: 1,
     },
     itemText: {
       color: "#254176",
-      margin: -5,
-      fontWeight: "600",
     },
     itemImage: {
       height: 35,
-      margin: 10,
     },
     bold: {
       paddingTop: 15,
@@ -111,73 +107,73 @@ return (
                     </TouchableOpacity>
                   </Col>
                   <Col>
-                    <TouchableOpacity
-                    onPress={() => props.navigation.navigate('Faq')}
-                    style={styles.item}
-                    >
-                      <Image
-                        resizeMode="contain"
-                        source={faqIcon}
-                        style={styles.itemImage}
-                      />
-                    <Text style={styles.itemText}>FAQ</Text>
-                    </TouchableOpacity>
+                  <TouchableOpacity
+                  onPress={() => props.navigation.navigate('Faq')}
+                  style={styles.item}
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={faqIcon}
+                    style={styles.itemImage}
+                  />
+                  <Text style={styles.itemText}>FAQ</Text>
+                </TouchableOpacity>
                   </Col>
                 </Row>
                 <Row>
                   <Col>
-                    <TouchableOpacity
-                    onPress={() => props.navigation.navigate('Profile')}
-                    style={styles.item}
-                    >
-                      <Image
-                        resizeMode="contain"
-                        source={profileIcon}
-                        style={styles.itemImage}
-                      />
-                    <Text style={styles.itemText}>Profile</Text>
-                    </TouchableOpacity>
+                  <TouchableOpacity
+                  onPress={() => props.navigation.navigate('Profile')}
+                  style={styles.item}
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={profileIcon}
+                    style={styles.itemImage}
+                  />
+                  <Text style={styles.itemText}>Profile</Text>
+                </TouchableOpacity>
                   </Col>
                   <Col>
-                    <TouchableOpacity
-                    onPress={() => props.navigation.navigate('Add Module')}
-                    style={styles.item}
-                    >
-                      <Image
-                        resizeMode="contain"
-                        source={loginIcon}
-                        style={styles.itemImage}
-                      />
-                    <Text style={styles.itemText}>Add Module</Text>
-                    </TouchableOpacity>
+                  <TouchableOpacity
+                  onPress={() => props.navigation.navigate('Add Module')}
+                  style={styles.item}
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={loginIcon}
+                    style={styles.itemImage}
+                  />
+                  <Text style={styles.itemText}>Add Module</Text>
+                </TouchableOpacity>
                   </Col>
                 </Row>
                 <Row>
                   <Col>
-                    <TouchableOpacity
-                    onPress={() => props.navigation.navigate('Add Module')}
-                    style={styles.item}
-                    >
-                      <Image
-                        resizeMode="contain"
-                        source={loginIcon}
-                        style={styles.itemImage}
-                      />
-                    <Text style={styles.itemText}>Add Module</Text>
-                    </TouchableOpacity>
+                  <TouchableOpacity
+                  onPress={() => props.navigation.navigate('Add Module')}
+                  style={styles.item}
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={loginIcon}
+                    style={styles.itemImage}
+                  />
+                  <Text style={styles.itemText}>Add Module</Text>
+                </TouchableOpacity>
                   </Col>
                   <Col>
-                    <TouchableOpacity
-                    onPress={() => props.navigation.navigate('Add Module')}
-                    style={styles.item}
-                    >
-                      <Image
-                        resizeMode="contain"
-                        source={loginIcon}
-                        style={styles.itemImage}
-                      />
-                    <Text style={styles.itemText}>Add Module</Text>
-                    </TouchableOpacity>
+                  <TouchableOpacity
+                  onPress={() => props.navigation.navigate('Add Module')}
+                  style={styles.item}
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={loginIcon}
+                    style={styles.itemImage}
+                  />
+                  <Text style={styles.itemText}>Add Module</Text>
+                </TouchableOpacity>
                   </Col>
                 </Row>
               </Grid>

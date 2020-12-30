@@ -94,7 +94,7 @@ const ReportsScreen: React.FunctionComponent<ReportsScreenProps> = (props) => {
           marginTop: 5,
           alignItems: 'center' ,
           backgroundColor: '#FFFFFF',
-            space: { height: 20 }
+          space: { height: 20 }
           }}
         >
         </View>
