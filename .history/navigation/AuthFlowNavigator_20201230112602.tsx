@@ -12,8 +12,7 @@ export enum AppScreens {
     Login = 'Login',
     Signup = 'Signup',
     Reports = 'Reports',
-    Messages = 'Messages',
-    Modules = 'Modules'
+    Messages = 'Messages'
 
 }
 export type AuthStackParamList = {
@@ -22,7 +21,6 @@ export type AuthStackParamList = {
     Welcome: undefined;
     Reports: undefined;
     Messages: undefined;
-    Modules: undefined;
 };
 const AuthStack = createStackNavigator<AuthStackParamList>();
 const AuthFlowNavigator: React.FunctionComponent = () => {
@@ -33,7 +31,6 @@ const AuthFlowNavigator: React.FunctionComponent = () => {
             <AuthStack.Screen name={AppScreens.Signup} component={SignupScreen} />
             <AuthStack.Screen name={AppScreens.Reports} component={ReportsScreen} />
             <AuthStack.Screen name={AppScreens.Messages} component={MessagesScreen} />
-            <AuthStack.Screen name={AppScreens.Modules} component={ModulesScreen} />
         </AuthStack.Navigator>
     );
 };

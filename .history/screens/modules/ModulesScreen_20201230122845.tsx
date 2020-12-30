@@ -1,6 +1,5 @@
 import React from 'react';
-import { SafeAreaView, StyleSheet, Text, View, Button, Image, TouchableOpacity } from 'react-native';
-import { Container, Header } from 'native-base';
+import { SafeAreaView, StyleSheet, Text, View, Button, Image, Icon, TouchableOpacity } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { AuthStackParamList, AppScreens } from '../../navigation/AuthFlowNavigator';
 type ModulesScreenNavigationProps = StackNavigationProp<AuthStackParamList, AppScreens.Modules>;
@@ -10,19 +9,19 @@ interface ModulesScreenProps {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: "white",
+      backgroundColor: colors.white,
       paddingTop: 10,
     },
-    buttons: {
-      flexDirection: 'column',
-      paddingHorizontal: 15,
+    row: {
+      flexDirection: 'row',
+      paddingHorizontal: 10,
       marginTop: 10,
     },
     item: {
       flex: 1,
       height: 120,
       paddingVertical: 20,
-      borderColor: "#d6dbdf",
+      borderColor: colors.primaryLight,
       borderWidth: 1,
       borderRadius: 5,
       alignItems: 'center',
@@ -33,7 +32,7 @@ const styles = StyleSheet.create({
       width: '31%',
       height: 120,
       paddingVertical: 20,
-      borderColor: "#d6dbdf",
+      borderColor: colors.primaryLight,
       borderWidth: 1,
       borderRadius: 5,
       alignItems: 'center',
@@ -41,35 +40,26 @@ const styles = StyleSheet.create({
       marginHorizontal: 5,
     },
     itemText: {
-      color: "#254176",
+      color: colors.primary,
+      fontFamily: fonts.primary,
     },
     itemImage: {
       height: 35,
     },
-    bold: {
-      paddingTop: 15,
-      marginLeft: 10,
-      marginRight: 10,
-    }
   });
   
-const reportsIcon = require('../../assets/images/reports.png');
-const messagesIcon = require('../../assets/images/messages.png');
-const calendarIcon = require('../../assets/images/calendar.png');
-const faqIcon = require('../../assets/images/faq.png');
-const loginIcon = require('../../assets/images/login.png');
-const profileIcon = require('../../assets/images/profile.png');
+const reportsIcon = require('../../assets/images/reports');
+const messagesIcon = require('../../assets/images/messages');
+const calendarIcon = require('../../assets/images/calendar');
+const faqIcon = require('../../assets/images/faq');
+const loginIcon = require('../../assets/images/login');
+const profileIcon = require('../../assets/images/profile');
 
 const ModulesScreen: React.FunctionComponent<ModulesScreenProps> = (props) => {
     const { navigation } = props;
 return (
         <SafeAreaView style={styles.container}>
-          <Container>
-            <Header>
-              <Text style={styles.bold}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt.</Text>
-            </Header>
-            <View style={styles.buttons}>
+            <View style={styles.row}>
               <TouchableOpacity
                 onPress={() => props.navigation.navigate('Reports')}
                 style={styles.item}
@@ -137,7 +127,12 @@ return (
                 <Text style={styles.itemText}>Profile</Text>
               </TouchableOpacity>
             </View>
-          </Container>
+      <View style={styles.btnContainer}>
+        <Button title="Messages" onPress={() => navigation.navigate(AppScreens.Messages)} />
+      </View>
+      <View style={styles.btnContainer}>
+        <Button title="Profile" onPress={() => navigation.navigate(AppScreens.Profile)} />
+      </View>
         </SafeAreaView>
     );
 };

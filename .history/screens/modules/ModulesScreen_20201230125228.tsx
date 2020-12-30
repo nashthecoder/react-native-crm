@@ -13,9 +13,9 @@ const styles = StyleSheet.create({
       backgroundColor: "white",
       paddingTop: 10,
     },
-    buttons: {
-      flexDirection: 'column',
-      paddingHorizontal: 15,
+    row: {
+      flexDirection: 'row',
+      paddingHorizontal: 10,
       marginTop: 10,
     },
     item: {
@@ -46,11 +46,6 @@ const styles = StyleSheet.create({
     itemImage: {
       height: 35,
     },
-    bold: {
-      paddingTop: 15,
-      marginLeft: 10,
-      marginRight: 10,
-    }
   });
   
 const reportsIcon = require('../../assets/images/reports.png');
@@ -66,10 +61,10 @@ return (
         <SafeAreaView style={styles.container}>
           <Container>
             <Header>
-              <Text style={styles.bold}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              <Text style={styles.bold}>Instructions: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt.</Text>
             </Header>
-            <View style={styles.buttons}>
+            <View style={styles.row}>
               <TouchableOpacity
                 onPress={() => props.navigation.navigate('Reports')}
                 style={styles.item}

@@ -13,9 +13,9 @@ const styles = StyleSheet.create({
       backgroundColor: "white",
       paddingTop: 10,
     },
-    buttons: {
-      flexDirection: 'column',
-      paddingHorizontal: 15,
+    row: {
+      flexDirection: 'row',
+      paddingHorizontal: 10,
       marginTop: 10,
     },
     item: {
@@ -48,8 +48,6 @@ const styles = StyleSheet.create({
     },
     bold: {
       paddingTop: 15,
-      marginLeft: 10,
-      marginRight: 10,
     }
   });
   
@@ -69,7 +67,7 @@ return (
               <Text style={styles.bold}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt.</Text>
             </Header>
-            <View style={styles.buttons}>
+            <View style={styles.row}>
               <TouchableOpacity
                 onPress={() => props.navigation.navigate('Reports')}
                 style={styles.item}

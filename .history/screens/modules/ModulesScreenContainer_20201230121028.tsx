@@ -1,3 +1,3 @@
 import { compose } from "recompose";
-import ModulesScreen from "./ModulesScreen";
+import ModulesScreen from "Modules";
 export default compose()(ModulesScreen);

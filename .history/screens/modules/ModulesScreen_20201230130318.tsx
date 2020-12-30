@@ -14,8 +14,8 @@ const styles = StyleSheet.create({
       paddingTop: 10,
     },
     buttons: {
-      flexDirection: 'column',
-      paddingHorizontal: 15,
+      flexDirection: 'row',
+      paddingHorizontal: 10,
       marginTop: 10,
     },
     item: {
@@ -48,8 +48,6 @@ const styles = StyleSheet.create({
     },
     bold: {
       paddingTop: 15,
-      marginLeft: 10,
-      marginRight: 10,
     }
   });
   
